@@ -3,15 +3,21 @@
 
 namespace rmc {
 
-    // يحدد هذا الثابت أبعاد الفضاء الطوبولوجي الذي نعمل فيه
     const int DIMENSIONS = 3; 
+
+    // تعريف خصائص الإشارة لضمان الموثوقية
+    struct Signal {
+        double frequency;      // تردد الإشارة
+        double amplitude;      // سعة الإشارة
+        double timestamp;      // الزمن لضمان التدفق الصحيح
+    };
 
     struct ManifoldPoint {
         double coords[DIMENSIONS];
         double resonance_intensity;
+        Signal signal_data;    // ربط الإشارة بالنقطة الطوبولوجية
     };
 
-    // الدالة المسؤولة عن حساب التمركز
     double calculate_stability(ManifoldPoint p);
 
 }
