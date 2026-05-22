@@ -11,3 +11,9 @@ The RMC framework utilizes a high-performance C++ kernel to handle real-time mat
 
 ## 4. Future Vision & Impact
 RMC is designed to be the foundational layer for cognitive augmentation, human-computer interaction, and autonomous neuromorphic systems, enabling machines to perform real-time logical reflection mirroring human architecture.
+
+## References
+1. Mead, C. (1990). Neuromorphic electronic systems. *Proceedings of the IEEE*.
+2. Strogatz, S. H. (2015). Nonlinear Dynamics and Chaos. *Westview Press*.
+3. Izhikevich, E. M. (2007). Dynamical Systems in Neuroscience. *MIT Press*.
+
